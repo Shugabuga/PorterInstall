@@ -24,6 +24,7 @@ sudo git clone https://github.com/lanewinfield/porter.git
 echo Installing Apache...
 sudo apt-get install -y --force-yes apache2
 echo Configuring Porter...
+sudo mv autostart.temp.porterinstall /home/pi/.config/autostart/porter.desktop
 sudo mv /porter/config_files/config.txt /boot/config.txt
 sudo mv /porter/config_files/default /etc/apache2/sites-available/default
 sudo mv /porter/config_files/xinitrc ~/.xinitrc
