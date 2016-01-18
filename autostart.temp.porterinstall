@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=chrome --incognito --kiosk file:///home/pi/screen/index.html
+Hidden=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Porter
+Name=Porter
+Comment[en_US]=Launches Porter interface
+Comment=Launches Porter interface
